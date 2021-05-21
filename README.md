@@ -10,7 +10,7 @@
 
 Simple telegram bot hosted on replit using flask, It forwards messages using the mailgun api.
 
-## register accounts + initial Setup
+## Register accounts + initial Setup
 
 0.1 You will need an account(free) on <a target="_blank" rel="noopener noreferrer" href="https://replit.com/signup?from=landing">replit</a>  to host this project so it runs 24/7 in the cloud. The free tier is fine, make sure to use environment variables like described below.
 
@@ -18,7 +18,7 @@ Simple telegram bot hosted on replit using flask, It forwards messages using the
 
 0.3 Create a bot using <a target="_blank" rel="noopener noreferrer" href="https://t.me/BotFather">botfather</a> and get the telegram api. **Make a note of api key" before closing BotFather Chat**
 
-## set up and deploy bot on replit
+## Set up and deploy bot on replit
 
 1. Create <a target="_blank" rel="noopener noreferrer" href="https://i.ibb.co/yqFhsFH/tbot3.png">new project</a> using python. Name it anything.
 2. Install the <a target="_blank" rel="noopener noreferrer" href="https://i.ibb.co/StGBtL8/tbot4.png">following packages:</a> (i) requests (ii) Flask (iii) pyTelegramBotAPI
