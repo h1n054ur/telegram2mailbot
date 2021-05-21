@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
 load_dotenv(os.path.join(BASEDIR, '.env'))
-url = os.env('URL')
-key1 = os.env('TELEGRAM_KEY)'
-key2 = os.env('MAILGUN_KEY')
+url = os.env("URL")
+key1 = os.env("TELEGRAM_KEY")
+key2 = os.env("MAILGUN_KEY")
 bot = telebot.TeleBot(key1)
 
 @bot.message_handler(commands=['start', 'help'])
