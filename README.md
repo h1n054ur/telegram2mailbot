@@ -27,8 +27,3 @@ Simple telegram bot hosted on replit using flask, It forwards messages using the
 5. Create new file called keep_alive.py and copy the code from keep_alive.py into it.
 6. Run code and test your bot. Bot should welcome you to the room and forward every message it receives to the email you specified.
 7. You can publish the repl, run it and close the tab and your bot will keep running in the background 24/7 for free!!
-
-## Notes:
-
-- Project hosted on replit https://replit.com/@h1n054ur/TelegramBot
-- Logo made with courtesy of https://www.freelogodesign.org/
